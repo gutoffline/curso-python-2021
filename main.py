@@ -31,3 +31,5 @@ print(nome.count("a") + nome.count("ã"))
 print(nome.startswith("J"))
 print(nome.endswith("o"))
 
+#execicio
+
