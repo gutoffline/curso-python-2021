@@ -17,5 +17,6 @@ OPERADORES LÓGICOS
     10 < 7 or 30 > 10 ---> verdadeiro
     10 < 7 or 30 > 40 ---> falso
 """
-
-print(10>5)
+nota = 3
+faltas = 13
+print(nota >=5 or faltas < 10)

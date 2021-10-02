@@ -29,7 +29,9 @@ imposto >= 27.5 --> muito alto
 """
 if imposto < 10:
     print("Imposto médio")
-elif imposto < 27.5:
+elif imposto >= 10 and imposto <= 27:
     print("Imposto alto")
-else:
+elif imposto > 27 and imposto < 100:
     print("Imposto muito alto")
+else:
+    print("Imposto inválido")
